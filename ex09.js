@@ -13,4 +13,7 @@
 
 const os = require("os");
 
-// write your code here
+const arr = os.cpus()
+arr.forEach((obj, index) => {
+    console.log(`CPU ${index}: ${obj.model}`)
+});
