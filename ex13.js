@@ -11,4 +11,4 @@
 
 const os = require("os");
 
-// write your code here
+console.log(`System uptime: ${os.uptime()} seconds`)
